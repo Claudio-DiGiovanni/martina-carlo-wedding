@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Noi</a>
+              <a class="nav-link" href="#us">Noi</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Location</a>
