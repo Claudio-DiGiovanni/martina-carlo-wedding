@@ -1,11 +1,9 @@
 <!-- eslint-disable max-len -->
 <template>
   <div id='us'>
-    <div class='container'>
-      <p>
-        Non so dove vada la mia strada, ma cammino meglio quando la mia mano stringe la tua.
-      </p>
-      <span>Alfred de Musset</span>
+    <div class="container">
+      <p class="invito">Siete invitati al taglio della torta <br>
+      ore 21.00</p>
     </div>
     <div class="container">
       <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-ride="carousel">
@@ -38,10 +36,11 @@
       </button>
     </div>
     </div>
-    <div class="container">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta at recusandae corrupti earum perferendis assumenda autem aut cumque dignissimos, neque natus quis soluta magnam ipsa illum unde illo pariatur quo?
-      Ipsam deserunt vel facere quia necessitatibus corrupti. Atque, eligendi. Fugiat cum, nam voluptatum consequatur laudantium, numquam impedit atque eos labore maiores incidunt facere possimus delectus expedita enim pariatur eaque provident.
-      Pariatur veniam eum quam deleniti. Atque numquam, voluptates, corporis est minima impedit aut labore quis amet sunt accusamus quia illum voluptatem ab consequuntur dolorem sit, obcaecati aperiam illo totam ducimus!</p>
+    <div class='container'>
+      <p>
+        Non so dove vada la mia strada, ma cammino meglio quando la mia mano stringe la tua.
+      </p>
+      <span>Alfred de Musset</span>
     </div>
   </div>
 </template>
@@ -74,6 +73,7 @@ span{
 .container {
   text-align: center;
   padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 img {
@@ -87,5 +87,9 @@ img {
     aspect-ratio: 4 / 3;
     object-fit: cover;
   }
+}
+
+.invito{
+  font-size: 40px;
 }
 </style>
